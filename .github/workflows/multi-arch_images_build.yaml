@@ -1,6 +1,11 @@
 ---
 name: 'multi-arch images build'
 
+on:
+  push:
+    branches:
+      - master
+
 jobs:
   docker:
     runs-on: ubuntu-latest
