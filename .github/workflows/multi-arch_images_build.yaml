@@ -1,10 +1,7 @@
 ---
 name: 'multi-arch images build'
 
-on:
-  push:
-    branches:
-      - master
+on: push
 
 jobs:
   docker:
