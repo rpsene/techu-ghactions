@@ -35,4 +35,4 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64,linux/ppc64le
           push: true
-          tags: latest
+          tags: quay.io/rpsene/techu-2021:latest
