@@ -1,7 +1,0 @@
----
-name: 'multi-arch images build'
-
-on:
-  push:
-    branches:
-      - master
