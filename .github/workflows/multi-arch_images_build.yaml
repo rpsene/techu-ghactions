@@ -4,7 +4,7 @@ name: 'multi-arch images build'
 on: push
 
 jobs:
-  docker:
+  multiarch-build:
     runs-on: ubuntu-latest
     steps:
       - name: Add checkout action...
