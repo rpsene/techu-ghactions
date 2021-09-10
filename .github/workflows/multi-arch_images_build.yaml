@@ -36,4 +36,4 @@ jobs:
           platforms: linux/amd64,linux/ppc64le
           push: true
           no-cache: true
-          tags: quay.io/rpsene/techu:latest-github-actions
+          tags: quay.io/rpsene/techu:latest-github-actions-${GITHUB_SHA::8}
