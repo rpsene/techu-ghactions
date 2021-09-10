@@ -34,5 +34,5 @@ jobs:
           context: .
           file: ./Dockerfile
           platforms: linux/amd64,linux/ppc64le
-          push: false
-          tags: quay.io/rpsene/techu-2021:latest-multiarch
+          push: true
+          tags: quay.io/rpsene/techu:latest-multiarch
