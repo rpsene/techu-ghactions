@@ -35,4 +35,4 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64,linux/ppc64le
           push: true
-          tags: quay.io/rpsene/techu:latest-multiarch
+          tags: quay.io/rpsene/techu:latest-github-actions
